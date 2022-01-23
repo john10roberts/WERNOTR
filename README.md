@@ -5,7 +5,7 @@
 We will use the data set provided from Kaggle that contains the final player stats and game rankings from the 2014 - 2020 NBA seasons to predict the overall NBA rating of the top 100 players for the 2020 season.  
 
 # DataSet
-![NBA Kaggle Data](https://www.kaggle.com/mj1196/nba-2k20-player-attributes)
+(https://www.kaggle.com/mj1196/nba-2k20-player-attributes)
 
 # Team Members
 Molly S.  ![Molly Branch](https://github.com/john10roberts/WERNOTR/tree/Molly)
