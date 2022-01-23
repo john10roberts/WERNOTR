@@ -22,3 +22,5 @@ We plan to limit our analysis to the top 100 ranked players for the season, but 
 Personally, I foresee my biggest challenge being that there is not as much structure in this project, so in needing to find ways to make that for myself and create personal checkpoints. 
 
 As a group, we've talked a lot about expecting our data questions and even the scope of our data to change as we go further into the project. 
+
+We also need to figure out how to scale all of our data to improve the accuracy of our model
