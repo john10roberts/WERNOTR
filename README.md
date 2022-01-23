@@ -8,16 +8,16 @@ We will use the data set provided from Kaggle that contains the final player sta
 https://www.kaggle.com/mj1196/nba-2k20-player-attributes
 
 # Team Members
-Molly S.  
+Molly S.
 https://github.com/john10roberts/WERNOTR/tree/Molly
 
-Miguel M. 
+Miguel M.
 https://github.com/john10roberts/WERNOTR/tree/Miguel
 
-Scott K. 
+Scott K.
 https://github.com/john10roberts/WERNOTR/tree/Scott
 
-John R. 
+John R.
 https://github.com/john10roberts/WERNOTR/tree/John
 
 # Initial Database
