@@ -8,20 +8,27 @@ We will use the data set provided from Kaggle that contains the final player sta
 https://www.kaggle.com/mj1196/nba-2k20-player-attributes
 
 # Team Members
-Molly S.  ![Molly Branch](https://github.com/john10roberts/WERNOTR/tree/Molly)
-Miguel M. ![Miguel Branch](https://github.com/john10roberts/WERNOTR/tree/Miguel)
-Scott K. ![Scott Branch](https://github.com/john10roberts/WERNOTR/tree/Scott)
-John R. ![John Branch](https://github.com/john10roberts/WERNOTR/tree/John)
+Molly S.  
+https://github.com/john10roberts/WERNOTR/tree/Molly
+
+Miguel M. 
+https://github.com/john10roberts/WERNOTR/tree/Miguel
+
+Scott K. 
+https://github.com/john10roberts/WERNOTR/tree/Scott
+
+John R. 
+https://github.com/john10roberts/WERNOTR/tree/John
 
 # Initial Database
 Created a script to set up the database to allow for import into postgres:
-![Create DB Script](https://github.com/john10roberts/WERNOTR/blob/John/Resources/CreateNBADB.sql)
+https://github.com/john10roberts/WERNOTR/blob/John/Resources/CreateNBADB.sql
 
 Loaded the data using postgres import function. 
 
 # Exploratory Data Analysis
-Created a simple jupyter notebook to do an initial exploratory analysis of the data set.  
-![John EDA](https://github.com/john10roberts/WERNOTR/blob/John/NBA2kRatingsEDA.ipynb)
+Created a simple jupyter notebook to do an initial exploratory analysis of the data set:  
+https://github.com/john10roberts/WERNOTR/blob/John/NBA2kRatingsEDA.ipynb
 
 * 2412 rows
 * 32 columns
