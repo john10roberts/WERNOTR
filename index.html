@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NBA Rankings</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body class="bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>NBA Rankings</h1>
+        <p>Search for player stats</p>
+      </div>
+      <div class="col-md-8">
+        <p>
+            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        </p>
+            </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-3">
+                    <form class="bg-dark">
+                        <p>Filter Search</p>
+                        <ul class="bg-dark">
+                          <li class="bg-dark">
+                            <label for="date">Enter Player Name</label>
+                            <input type="text" placeholder="LeBron James" id="PLAYER" />
+                          </li>
+                          <li class="bg-dark">
+                            <label for="date">Enter Wins</label>
+                            <input type="text" placeholder="10" id="W" />
+                          </li>
+                          <li class="bg-dark">
+                            <label for="date">Enter Losses</label>
+                            <input type="text" placeholder="10" id="L" />
+                          </li>
+                          <li class="bg-dark">
+                            <label for="date">Enter Ranking</label>
+                            <input type="text" placeholder="70.0" id="rankings" />
+                          </li>
+                          <li class="bg-dark">
+                            <label for="date">Enter Machine Ranking</label>
+                            <input type="text" placeholder="70.0" id="TBD" />
+                          </li>
+                        </ul>
+                      </form>
+                  </div>
+                  <div class="col-md-9">
+                    <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th>PLAYER</th>
+                            <th>TEAM</th>
+                            <th>AGE</th>
+                            <th>SEASON</th>
+                            <th>GP</th>
+                            <th>W</th>
+                            <th>L</th>
+                            <th>MIN</th>
+                            <th>PTS</th>
+                            <th>FGM</th>
+                            <th>FGA</th>
+                            <th>FGP</th>
+                            <th>TPM</th>
+                            <th>TPA</th>
+                            <th>TPP</th>
+                            <th>FTM</th>
+                            <th>FTA</th>
+                            <th>FTP</th>
+                            <th>OREB</th>
+                            <th>DREB</th>
+                            <th>REB</th>
+                            <th>AST</th>
+                            <th>TOV</th>
+                            <th>STL</th>
+                            <th>BLK</th>
+                            <th>PF</th>
+                            <th>FP</th>
+                            <th>DD2</th>
+                            <th>TD3</th>
+                            <th>PON</th>
+                            <th>rankings</th>
+                          </tr>
+                        </thead>
+                        <tbody></tbody>
+                      </table>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
+</body>
+</html>    
