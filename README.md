@@ -11,6 +11,19 @@ Our goal is to design a machine learning model that will closely predict what ra
 
 We plan to limit our analysis to the top 100 ranked players for the season, but have discussed opening this range further if needed. 
 
+## Integrated RandomForest model 
+
+* Preprocessing: Our dataset was strong to begin with, so the only consideration before starting the actual analysis was creating a DataFrame from our SQL database data, and splitting the data into smaller datasets based on seasons. 
+
+* Feature selection: The 'rankings' column was our sole target variable, while all the other columns fell into the feature set. We also dropped the categorical columns of 'player', 'team', and 'season' from the feature set.
+
+* Training and testing: After splitting the 2019-20 season from the rest of the dataset, we trained the data on all of the other seasons. We used train_test_split on scaled data from past seasons. We then applied the trained RandomForestModel to the 2019-20 dataset in order to predict the rankings. 
+
+* RandomForestModel outcome: The model was difficult to analyze at first glance as the actual accuracy score was very low, however, all of the predicted rankings were within 5 points of the actual ranking. This required us to reevaluate how we looked at the model, as we were satisfied with the standard it performed to. Another benefit of the RandomForestModel is that it allowed us to look at how important each feature was to calculating the outcome. Although two of the lowest ranked data points were features we had previously considered dropping, actually dropping them from the model made no significant difference. 
+
+* Database integration: We applied a connection string to our local SQL database in our Jupyter Notebook script to import the dataset for the model to work with. We also connected the transformed dataset back to our local database with the .to_sql method in order to create a new table. 
+
+
 ## Tools and Techniques
 
 * Python: data preprocessing, machine learning model 
