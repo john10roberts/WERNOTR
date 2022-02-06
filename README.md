@@ -7,9 +7,9 @@
  
 We are planning to use the NBA dataset included to analyze real player stats in comparison to the NBA 2k20 video game. Basketball players in the video game are given a ranking based on over 50 different factors, according to developers of the game. 
  
-Our goal is to design a machine learning model that will closely predict what ranking players will be given in the game based on the provided statistics. 
+Our goal is to design a machine learning model that will closely predict what ranking players will be given in the game during the 2019-20 season based on the provided statistics and training on the earlier seasons. 
 
-We plan to limit our analysis to the top 100 ranked players for the season, but have discussed opening this range further if needed. 
+We originally planned to limit our analysis to the top 100 ranked players, but have since opened our analysis to include the entire dataset.
 
 ## Integrated RandomForest model 
 
