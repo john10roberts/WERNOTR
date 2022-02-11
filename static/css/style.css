@@ -1,6 +1,6 @@
 body {
 
-  color: #ADFF2F;
+  color: #F08080;
 }
 .jumbotron {
   background-image: url("../images/nba.png");
@@ -9,7 +9,7 @@ body {
 }
 
 .span3 {  
-  height: 300px !important;
+  height: 400px ;
   overflow: scroll;
 }
 

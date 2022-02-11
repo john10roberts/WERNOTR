@@ -19,9 +19,7 @@
       </div>
       <div class="col-md-8">
         <p>
-            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+          On this dashboard, we've loaded in the results of our RandomForest model and you are able to use the window below to look through the player data. We also included a couple of search parameters of the lefthand side of the dashboard if you have a specific player you are looking for. Lastly, at the bottom of the page we included the player rankings by groups before and after the machine model to allow you to vizualize the differences between the two.
         </p>
             </div>
             </div>
@@ -48,7 +46,7 @@
                             <input type="text" placeholder="70.0" id="rankings" />
                           </li>
                           <li class="bg-dark">
-                            <label for="date">Enter Machine Ranking</label>
+                            <label for="date">Enter Prediction</label>
                             <input type="text" placeholder="70.0" id="TBD" />
                           </li>
                         </ul>
@@ -88,8 +86,9 @@
                             <th>FP</th>
                             <th>DD2</th>
                             <th>TD3</th>
-                            <th>PON</th>
+                            <th>IMP</th>
                             <th>rankings</th>
+                            <th>predictions</th>
                           </tr>
                         </thead>
                         <tbody></tbody>
@@ -101,11 +100,11 @@
         </div>
     
         <p class="aligncenter">
-          <img src="Rank_Groupings.png" width="600" height="400"/>
+          <img src="OG_Rank_Groupings.png" width="600" height="400"/>
           </p>   
        
         <p class="aligncenter">
-          <img src="Rank_Groupings.png" width="600" height="400"/>
+          <img src="MM_Rank_Groupings.png" width="600" height="400"/>
           </p>   
     
     
@@ -113,7 +112,7 @@
     
       </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-    <script src="static/js/data.js"></script>
+    <script src="static/js/RF.js"></script>
     <script src="static/js/app.js"></script>
 </body>
 </html>    
