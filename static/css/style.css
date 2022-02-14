@@ -1,0 +1,19 @@
+body {
+
+  color: #F08080;
+}
+.jumbotron {
+  background-image: url("../images/nba.png");
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.span3 {  
+  height: 400px ;
+  overflow: scroll;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
