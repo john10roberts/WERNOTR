@@ -42,9 +42,16 @@ https://github.com/john10roberts/WERNOTR/blob/John/NBA2kRatingsEDA.ipynb
 
 * Training and testing: After splitting the 2019-20 season from the rest of the dataset, we trained the data on all of the other seasons. We used train_test_split on scaled data from past seasons. We then applied the trained RandomForestModel to the 2019-20 dataset in order to predict the rankings. 
 
+https://github.com/john10roberts/WERNOTR/blob/Molly/integrated%20rf%20model.ipynb
+
 * RandomForestModel outcome: The model was difficult to analyze at first glance as the actual accuracy score was very low, however, all of the predicted rankings were within 5 points of the actual ranking. This required us to reevaluate how we looked at the model, as we were satisfied with the standard it performed to. Another benefit of the RandomForestModel is that it allowed us to look at how important each feature was to calculating the outcome. Although two of the lowest ranked data points were features we had previously considered dropping, actually dropping them from the model made no significant difference. 
 
+https://github.com/john10roberts/WERNOTR/blob/Molly/predictions.jpg
+
 * Database integration: We applied a connection string to our local SQL database in our Jupyter Notebook script to import the dataset for the model to work with. We also connected the transformed dataset back to our local database with the .to_sql method in order to create a new table. 
+
+https://github.com/john10roberts/WERNOTR/blob/Molly/rf_data_output.csv
+
 
 # Linear Neural Network
 Created a linear neural network model using tensor flow. Split the data set into a training set of all of the data excluding the 2019-2020 season and a test dataset that was just the 2019-2020 season.  Dropped the un-needed categorical columns and used 80% of the data set with a random_state of 0 to train the model. The linear model had a Mean Absolute Error of 1.53. 
