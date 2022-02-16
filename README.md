@@ -44,9 +44,9 @@ https://github.com/john10roberts/WERNOTR/blob/John/NBA2kRatingsEDA.ipynb
 
 https://github.com/john10roberts/WERNOTR/blob/Molly/integrated%20rf%20model.ipynb
 
-* RandomForestModel limitations and benefits: This model was chosen because of its ability to work with large datasets as well as it's lower risk of overfitting and potential to handle outliers. Another benefit of the RandomForestModel is that it allowed us to look at how important each feature was to calculating the outcome. 
+* RandomForestModel benefits: This model was chosen because of its ability to work with large datasets as well as it's lower risk of overfitting and potential to handle outliers. Another benefit of the RandomForestModel is that it allowed us to look at how important each feature was to calculating the outcome. 
 
- The main limitation was that we were not able to evaluate it with the accuracy score alone, which was very low. We therefore had to redefine our standards for accuracy, as many of the predictions were close to the actual rankings, although not exact.
+* RandomForestModel limitations: The main limitation was that we were not able to evaluate it with the accuracy score alone, which was very low. We therefore had to redefine our standards for accuracy, as many of the predictions were close to the actual rankings, although not exact.
 
 * RandomForestModel outcome: Although the accuracy score was low at .217, we still felt this model had value for our analysis as all but 2% of the predicted rankings were within 5 points of the actual rankings. Within the five-point range, 110/507 predictions were exact and 179/507 were one point away. We included the chart below to help better visualize the accuracy of our model.
 
