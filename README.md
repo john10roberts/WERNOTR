@@ -44,14 +44,17 @@ https://github.com/john10roberts/WERNOTR/blob/John/NBA2kRatingsEDA.ipynb
 
 https://github.com/john10roberts/WERNOTR/blob/Molly/integrated%20rf%20model.ipynb
 
-* RandomForestModel outcome: The model was difficult to analyze at first glance as the actual accuracy score was very low, however, all of the predicted rankings were within 5 points of the actual ranking. This required us to reevaluate how we looked at the model, as we were satisfied with the standard it performed to. Another benefit of the RandomForestModel is that it allowed us to look at how important each feature was to calculating the outcome. Although two of the lowest ranked data points were features we had previously considered dropping, actually dropping them from the model made no significant difference. 
+* RandomForestModel limitations and benefits: This model was chosen because of its ability to work with large datasets as well as it's lower risk of overfitting and potential to handle outliers. Another benefit of the RandomForestModel is that it allowed us to look at how important each feature was to calculating the outcome. 
+
+ The main limitation was that we were not able to evaluate it with the accuracy score alone, which was very low. We therefore had to redefine our standards for accuracy, as many of the predictions were close to the actual rankings, although not exact.
+
+* RandomForestModel outcome: Although the accuracy score was low at .217, we still felt this model had value for our analysis as all but 2% of the predicted rankings were within 5 points of the actual rankings. Within the five-point range, 110/507 predictions were exact and 179/507 were one point away. We included the chart below to help better visualize the accuracy of our model.
 
 https://github.com/john10roberts/WERNOTR/blob/Molly/predictions.jpg
 
 * Database integration: We applied a connection string to our local SQL database in our Jupyter Notebook script to import the dataset for the model to work with. We also connected the transformed dataset back to our local database with the .to_sql method in order to create a new table. 
 
 https://github.com/john10roberts/WERNOTR/blob/Molly/rf_data_output.csv
-
 
 # Linear Neural Network
 Created a linear neural network model using tensor flow. Split the data set into a training set of all of the data excluding the 2019-2020 season and a test dataset that was just the 2019-2020 season.  Dropped the un-needed categorical columns and used 80% of the data set with a random_state of 0 to train the model. The linear model had a Mean Absolute Error of 1.53. 
