@@ -73,7 +73,10 @@ This model had a Mean Absolute Error of 1.81 with the vast majority of projectio
 
 # Dashboard
 For the second part of the project I mainly focused on creating the html page for our dashboard. It has a simple search option to be able to look up players using any of their player data from our dataset. Once we've finished refining the machine model, the final exported data will be loaded onto the page. For now there is just the data from the 2019-20 season. For the most part our dataset was very clean, but one issue was that in order for that data to be loaded onto the page, it needed to be in javascript and around 6 of the columns in the dataset were throwing errors when converted into js. So, I went and found which columns these were and changed them in jupyter notebook. While I don't I have a machine model on my computer yet, I still went ahead and set up a postgres server and imported our data for use further down the road.  A sample of the dashboard can be found here: 
-https://stkaran.github.io/FPS/
+
+* https://stkaran.github.io/FPS/
+
+* https://quixck23.github.io/quixck23WERNOTR.github.io/
 
 # Presentation
 Here is our initial draft of the presentation: 
